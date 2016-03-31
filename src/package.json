@@ -1,0 +1,20 @@
+{
+    "name": "autopagerize_local",
+    "title": "Auto Pagerize with Local Rule",
+    "version": "0.1.1",
+    "description": "A browser Extension for aloading next pages, support user's rule. Modify based on AutoPagerize",
+    "icon": "icon.png",
+    "main": "lib/main.js",
+    "url": "https://github.com/jt6562/autopagerize_local-for_firefox",
+    "homepage": "https://github.com/jt6562/autopagerize_local-for_firefox",
+    "author": "jt6562",
+    "permissions": {
+        "private-browsing": true
+    },
+    "preferences": [{
+        "name": "openPref",
+        "title": "Configuration",
+        "label": "Open preferences",
+        "type": "control"
+    }]
+}

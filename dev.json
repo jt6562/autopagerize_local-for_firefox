@@ -1,0 +1,5 @@
+{
+    "xpinstall.signatures.required": false,
+    "devtools.debugger.remote-enabled": true,
+    "extensions.sdk.console.logLevel": "all"
+}

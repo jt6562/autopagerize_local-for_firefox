@@ -1,0 +1,40 @@
+<html>
+<head>
+  <link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.min.css">
+  <style>
+  body {
+    padding: 10px 20px 10px 20px;
+    font-family: sans-serif;
+    background-color: #eee;
+    color: #444;
+    font-size: 12px;
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h3  class="text-center" id='item_name'>Item Name</h3>
+      <dl class="dl-horizontal">
+        <dt>Creator:</dt><dd id="created_by"></dd>
+        <dt>Update Time:</dt><dd id="updated_at"></dd>
+        <dt>Create Time:</dt><dd id="created_at"></dd>
+        <dt>Origin Resource URL:</dt><dd id="resource_url"></dd>
+        <dt>Example:</dt><dd id="data_exampleUrl"></dd>
+      </dl>
+      <fieldset class="form-group">
+        <label for="formGroupExampleInput">URL Pattern</label>
+        <input type="text" class="form-control" id="data_url">
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="formGroupExampleInput2">Next Link</label>
+        <input type="text" class="form-control" id="data_nextLink">
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="formGroupExampleInput2">Page Element</label>
+        <input type="text" class="form-control" id="data_pageElement">
+      </fieldset>
+      <button type="submit" class="btn btn-primary" id="item_save">Save</button>
+
+  </div><!-- /container -->
+</body>
+</html>

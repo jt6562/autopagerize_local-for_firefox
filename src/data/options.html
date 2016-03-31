@@ -1,0 +1,70 @@
+<html>
+<head>
+<style>
+body {
+  padding: 0 20px;
+  background-color: #eee;
+  color: #444;
+}
+
+.desc {
+  margin: 3px 0 10px 7px;
+  font-size: 90%;
+}
+</style>
+<link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="watable.css">
+</head>
+<body>
+<h1 class="page-header">
+  <img src="icons/icon_048.png" /> <span >options</span></h1>
+<div>
+<form id="settings_form">
+<h3 class="page-header">Configure</h3>
+  <div class="form-group">
+    <label for="form_disable">Disable</label>
+    <input type="checkbox" id="form_disable" >
+  </div>
+
+  <div class="form-group">
+    <label for="form_dm">Display message bar</label>
+    <input type="checkbox"  id="form_dm">
+  </div>
+
+  <h3 class="page-header">Siteinfo</h3>
+  <div><label for="siteinfo_size">size</label>: <span id="siteinfo_size"></span></div>
+  <div><label for="siteinfo_updated_at">updated_at</label>: <span id="siteinfo_updated_at"></span></div>
+  <form>
+    <input class="btn btn-default" id="update_siteinfo" type="button" value="Update Siteinfo" />
+  </form>
+
+  <form>
+    <input class="btn btn-default" id="update_table" type="button" value="Update Table" />
+  </form>
+  <div id="siteinfo_table" style="width:auto"></div>
+
+
+  <h3 class="page-header">Exclude patterns</h3>
+  <div>
+  <textarea class="form-control" id="form_ep" cols="30" rows="5"></textarea>
+  </div>
+
+  <div class="desc">
+  <span class="i18n">example</span>(<span class="i18n">wildcard</span>): <code> http://www.example.com/search?*</code>
+   <br />
+  <span class="i18n">example</span>(<span class="i18n">regexp</span>): <code>/[^.]+\.example\.com\//</code>
+  </div>
+
+  <input class="btn btn-default" type="submit" value="Save" />
+</form>
+
+</div>
+
+<p class="text-right">
+<small>
+AutoPagerize
+<a href="http://autopagerize.net/">http://autopagerize.net/</a>
+</small>
+</p>
+</body>
+</html>

@@ -1,7 +1,7 @@
 {
     "name": "autopagerize_local",
     "title": "Auto Pagerize with Local Rule",
-    "version": "0.1.1",
+    "version": "0.1.0",
     "description": "A browser Extension for aloading next pages, support user's rule. Modify based on AutoPagerize",
     "icon": "icon.png",
     "main": "lib/main.js",
